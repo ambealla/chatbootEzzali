@@ -23,8 +23,8 @@ body {
 =============== */
 .chatbox {
     position: fixed;
-    bottom: 65px;
-    right: 50px;
+    bottom: 50px;
+    right: 8%;
     
 }
 
@@ -34,7 +34,7 @@ body {
     flex-direction: column;
     background: #eee;
     width: 300px;
-    height: 450px;
+    height: 600px;
     z-index: 123456;
     opacity: 1;
     transition: all .5s ease-in-out;
@@ -52,8 +52,8 @@ body {
 .chatbox__button {
     text-align: right;
     position: fixed;
-    bottom: 0%;
-    right: 0%;
+    bottom: 4%;
+    right: 3%;
 }
 
 .send__button {
@@ -105,7 +105,7 @@ body {
 
 .chatbox__support {
     background: #f9f9f9;
-    height: 500px;
+    height: 90%;
     width: 350px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 20px;
@@ -198,7 +198,7 @@ body {
 .chatbox__button button:focus,
 .chatbox__button button:visited {
     padding: 10px;
-    background: white;
+    background: rgb(245, 7, 7);
     border: none;
     outline: none;
     border-top-left-radius: 50px;
@@ -206,4 +206,26 @@ body {
     border-bottom-left-radius: 50px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+}
+
+.floating {   
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+    margin-left: 30px; 
+    margin-top: 5px; 
+   color: white;
+} 
+  
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+.radi{
+    border-radius: 50px 50px 0%;
+}
+ul{
+    padding: 0%;
 }

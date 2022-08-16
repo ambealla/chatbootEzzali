@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Tiro+Gurmukhi&display=swap');
+
+
 
 *,
 html {
@@ -10,45 +13,40 @@ html {
 }
 .logoensias{
     position: absolute;
-    top: 0%;
-    right: 0%;
+    top: 10%;
+    right: 1%;
+    text-align: center;
+ 
     overflow-y: hidden;
-
+    z-index: 10;
+background-color: #f1eaea;
 }
-.logoname{
-    position: absolute;
-    top: 0%;
-    left: 2%;
+
+@media screen and (max-width: 1050px) {
+    .logoensias {
+        z-index: -10;
+    }
+  
+    
+  }
+
+.image{
+    height: 100%;
+    width: 100%;
     overflow-y: hidden;
-    font-size: 22;
-    color: #e71d1d;
-background-color: #FFF;
+    overflow-x: hidden;
 }
 
 
 .introduction {
-    background-image: url('/public/BACKGROUND.jpg');
-    filter: brightness(50%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-    background-color: #070000;
-    overflow: hidden;
     
+    overflow: hidden;
+margin-bottom: 20px;
     padding: 2rem;
-    opacity: 1;
     
 }
 
-@media screen and (max-width: 991px) {
-    .introduction {
-        overflow: hidden;
-        padding-top: 0px;
-        padding: 2rem;
-        margin: 2rem;
-    }
-}
+
 
 .firstimg {
     position: absolute;
@@ -66,15 +64,37 @@ background-color: #FFF;
     text-align: center;
     text-shadow: #070000;
     top: 25%;
+    left: 5%;
  
 }
-.introduction_text {
-    background-color: #0a0a0a;
-    color: #FFF;
-    Text-shadow:0px 5px 25px #000000;
-    font-family: 'Roboto Slab', serif;
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Libre+Bodoni:ital,wght@0,600;1,700&family=Montserrat:wght@500&family=Oswald:wght@200&family=Roboto+Slab:wght@300&family=Tiro+Gurmukhi&display=swap');
+
+
+
+
+.filiere_name {
+    color: rgb(245, 12, 12);
+    max-width: 450px;
+    margin-bottom: 20px;
+    width: 100%;
+
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 5px;
+}
+.filiere_logo{
+    color: rgb(255, 255, 255);
+    max-width: fit-content;
+   
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,6 +107,36 @@ background-color: #FFF;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    
     /* it center the item vertically */
     justify-content: center;
+    
+    
+    padding-top: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Libre+Bodoni:ital,wght@0,600;1,700&family=Oswald:wght@200&family=Roboto+Slab:wght@300&family=Tiro+Gurmukhi&display=swap');
+
+.SCL{
+color: #e71d1d;
+}
+
+.introduction_text{
+    color: #1136e9;
+    
+   
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+    align-items: center;
+    padding-left: 5%;
+    
+    white-space: pre-line;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1s backwards;
+}
+.text{
+    display: flex;
+    flex-direction: column;
 }

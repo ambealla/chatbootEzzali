@@ -1,0 +1,28 @@
+[
+    {
+        
+        "name": "Patricia Lebsack",
+        "country": "United States",
+        "id": 1,
+        "url": "https://blog.digitalcook.fr/wp-content/uploads/2021/01/analyste-programme-informatique.jpg",
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "All we are doing is looking at the time line, from the moment the customer gives us an order to the point when we collect the cash. And we are reducing the time line by reducing the non-value adding wastes"
+        },
+        {
+            "name": "Leanne Graham",
+            "country": "Victor Plains",
+        "id": 2,
+        "url": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "qui est esse",
+        "body": "Supply chains are everywhere.  From the biggest company in the world to running your household.  We all have supply chain experience even if we don’t know it"
+        },
+        {
+        "name": "Ervin Howell",
+        "country": "Douglas Extension",
+        "id": 3,
+        "url": "https://www.francesupplychain.org/wp-content/themes/yootheme/cache/business-woman-436837d0.png",
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "Be on the cutting edge of supply chain automation.  Research artificial intelligence, machine learning and deep learning"
+        }
+        
+]
